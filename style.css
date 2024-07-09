@@ -66,9 +66,11 @@ body {
 .all-box .box.active{
     pointer-events: none; 
     cursor: default;
+    background-color: rgb(57, 25, 94);
 }
 .all-box .box.opacity , .header.opacity{
     opacity: 0.1;
+    background-color: rgb(57, 25, 94);
 }
 .all-box .box:hover {
     background-color: rgb(57, 25, 94);
