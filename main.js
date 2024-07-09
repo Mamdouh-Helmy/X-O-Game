@@ -25,7 +25,7 @@ function equalize(){
         document.querySelector('.equalize').style.display = ' block';
         setTimeout(() =>{
             location.reload()
-        } , 4000)
+        } , 2000)
     }
 }
 
@@ -38,7 +38,7 @@ function winner(){
     document.querySelector('.winner').style.display = ' block';
     setTimeout(() =>{
         location.reload()
-    } , 4000)
+    } , 2000)
 }
 function check() {
     if (!checkboxs) {
